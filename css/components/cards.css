@@ -1,0 +1,20 @@
+.cards {
+display: flex;
+justify-content:center;
+align-items: center;
+padding:7vh 0
+}
+
+.cards .card {
+  background-color: #fafafa;
+  box-shadow: 1px 1px 7px #727272;
+  width: 200px;
+  padding: 7px;
+  margin-bottom: 16px;
+  margin: 0 25px;
+}
+
+.cards .card img {
+  width: 200px;
+  height: 160px;
+}

@@ -1,0 +1,64 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Hero banner */
+@import url('components/hero-banner.css');
+
+/* Cards */
+@import url('components/cards.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  font-size: 17px;
+  background-color:#eef1f7;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.container {
+  margin: 20px 0;
+  text-align: center;
+}
+
+footer{
+background-color:#ffd650;
+padding: 16px 25px;
+}
+
+footer .container ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+footer .container ul li {
+  display:inline-flex;
+  font-size: 25px;
+}

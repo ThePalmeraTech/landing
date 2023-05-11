@@ -1,0 +1,40 @@
+.hero-banner {
+  background-image: url(https://images.unsplash.com/photo-1581868164904-77b124b80242?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1888&q=80);
+  background-size: cover;
+  height:300px;
+  margin-top: -40px;
+  padding: 25vh 0;
+  background-position-y: 52%;
+}
+
+.hero-banner h1 {
+    color: white;
+    text-shadow: 3px 3px 16px #333;
+    margin-top: 16vh;
+}
+
+.hero-banner p {
+  font-size: 1.6em;
+  color:#f0f0f0;
+  font-weight: bold;
+  text-shadow: 3px 3px 16px #333;
+}
+
+.hero-banner a {
+  background-color: darkorange;
+  border-radius: 7px;
+  color:#1d1d1d;
+  padding: 7px 16px;
+  font-weight: bold;
+}
+
+.hero-banner a:hover {
+  background-color: rgb(236, 140, 22);
+  border-radius: 7px;
+  color:#0e0e0e;
+  padding:16px
+}
+
+.hero-banner h2 {
+  font-size: 1.5em;
+}
